@@ -1,0 +1,17 @@
+{
+  "name": "gen2inc-character-to-emoji",
+  "version": "1.0.0",
+  "description": "used for a private discord server to make cool lil emoji fonts :3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "clipboardy": "^3.0.0",
+    "prompt-sync": "^4.2.0"
+  }
+}

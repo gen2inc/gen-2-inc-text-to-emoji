@@ -47,9 +47,8 @@ function convertToText(text) {
             case text[i] === ":" && text[i+1] === "D":
                 string += ":zuzzbet_45:";
                 break;
-            
         }
     }
-
+    
     return string;
 }

@@ -41,10 +41,10 @@ function convertToText(text) {
             case text[i-1] === ">" && text[i] === ":" && text[i+1] === "3":
                 string += ":zuzzbet_43:";
                 break;
-            case text[i] === "D" && text[i+1] === ":":
+            case text[i].toLowerCase() === "d" && text[i+1] === ":":
                 string += ":zuzzbet_44:";
                 break;
-            case text[i] === ":" && text[i+1] === "D":
+            case text[i] === ":" && text[i+1].toLowerCase() === "d":
                 string += ":zuzzbet_45:";
                 break;
         }

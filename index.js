@@ -19,6 +19,7 @@ function convertToText(text) {
     let string = "";
 
     for (let i = 0; i < text.length; i++) {
+        console.log(text[i])
         if (customCharacters[text[i]]) { 
             string += customCharacters[text[i]];
             continue;
@@ -41,10 +42,10 @@ function convertToText(text) {
             case text[i-1] === ">" && text[i] === ":" && text[i+1] === "3":
                 string += ":zuzzbet_43:";
                 break;
-            case text[i].toLowerCase() === "d" && text[i+1] === ":":
+            case text[i-1] && text[i-1].toLowerCase() === "d" && text[i] === ":":
                 string += ":zuzzbet_44:";
                 break;
-            case text[i] === ":" && text[i+1].toLowerCase() === "d":
+            case text[i+1] && text[i] === ":" && text[i+1].toLowerCase() === "d":
                 string += ":zuzzbet_45:";
                 break;
         }

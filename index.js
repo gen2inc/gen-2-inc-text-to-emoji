@@ -19,7 +19,6 @@ function convertToText(text) {
     let string = "";
 
     for (let i = 0; i < text.length; i++) {
-        console.log(text[i])
         if (customCharacters[text[i]]) { 
             string += customCharacters[text[i]];
             continue;
